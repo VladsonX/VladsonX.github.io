@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,12 +11,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
     <title>Solar System</title>
 </head>
+
 <body>
     <main>
         <section id="section1" class="mainscreen">
             <div class="container">
                 <header>
-                    <button class="btn-menu" onclick="menu()">
+                    <button class="btn-menu"">
                         <div class="btn-menu__bars"></div>
                     </button>
                     <nav class="nav" id="nav">
@@ -30,13 +32,29 @@
                         </ul>
                     </nav>
                 </header>
-                
             </div>
+            <div id="google_translate_element"></div>
             <div class="container2">
                 <h1 id="mainH1"><a href="system.html">Solar System</a></h1>
             </div>
         </section>
     </main>
 </body>
+
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+            {pageLanguage: 'en'},
+            'google_translate_element'
+        );
+    }
+</script>
+
+<script type="text/javascript"
+        src=
+"https://translate.google.com/translate_a/element.js?
+cb=googleTranslateElementInit">
+</script>
 <script src="script.js"></script>
+
 </html>
