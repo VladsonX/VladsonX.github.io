@@ -13,7 +13,7 @@ for (let i = 0; i < figure.length; i++) {
     const counterText = historyText[i];
     counter.addEventListener('click', function () {
         this.classList.toggle("photo_click");
-        this.querySelector("img").classList.toggle("width_disable")
+        this.querySelector("img").classList.toggle("width_disable");
         counterText.classList.toggle("no-blur");
 
     });
