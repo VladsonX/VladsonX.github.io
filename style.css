@@ -336,6 +336,7 @@ h2 {
 
 .solarsyst .wrapper p,
 figcaption {
+    transition: 2s all ease;
     font-size: 18px;
     margin: 0 auto;
     margin-top: 10px;
@@ -551,6 +552,7 @@ nav li a:hover {
 .contact_visit {
     background-color: #bfbfbf;
 }
+
 
 
 
@@ -868,7 +870,9 @@ nav li a:hover {
 figure.no-transform:hover {
     transform: scale(1);
 }
-
+.text_white {
+    color: #fff;
+}
 
 /* Media  */
 
@@ -973,6 +977,17 @@ figure.no-transform:hover {
     position: absolute;
 }
 
+.solar_entry .container2 .photo_click figcaption.text_white, .solar_entry .container2 .solarsyst .no-transform.photo_click figcaption.text_white {
+    font-weight: 900;
+    font-size: 20px;
+    color: #fff;
+}
+
+/* doc */
+
+.doc_block {
+    background: url(img/nasa-CpHNKNRwXps-unsplash.jpg) center center/cover no-repeat;
+}
 
 @media only screen and (max-width: 600px) {
 
@@ -1046,6 +1061,7 @@ figure.no-transform:hover {
 
 
     .solar_entry .header_with_main figcaption {
+        transition: 2s all ease;
         font-size: 12px;
     }
 

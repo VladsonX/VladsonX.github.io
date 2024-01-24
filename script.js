@@ -1,6 +1,4 @@
 document.getElementById("mainH1").addEventListener("mouseover", function () {
-   // document.getElementById("section1").style.boxShadow="inset 0px 0px 90px 100vh rgba(0, 0, 0, 1); transition: 1s all ease;";
-   // setTimeout(1000);
    document.getElementById("section1").style.background = "url(img/stars5.gif) center center/cover repeat";
 }, false);
 document.getElementById("mainH1").addEventListener("mouseout", function () {
